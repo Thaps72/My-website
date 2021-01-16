@@ -1,0 +1,80 @@
+html{
+    width: 100%;
+    height: 100%;
+    font-family:Arial, sans-serif;
+}
+
+Body{
+width: 100%;
+height: 100%;
+box-sizing: border-box;
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+float: none;
+height: 60px;
+top: 22px;
+right:120px;
+
+}
+ul {
+    float:right;;
+    display: inline;
+    list-style:none ;
+}
+img {
+width: 60px;
+top: 10px;
+left: 120px;
+position: relative;
+}
+/*full with inputs*/
+input[type=text],input[password]{
+width:100%;
+padding: 12px;
+display: inline;
+border-radius: 3px;
+margin: 5px 0 22px 0;
+margin-bottom:20px;
+border: 1px solid #ccc;
+}
+
+hr{
+    border: 1px solid lightgray;
+    margin-bottom: 12px;
+}
+
+.registerbtn{
+cursor: pointer;
+padding: 6px 12px;
+color:none;
+border-radius: 5px;
+background-color:#fff;
+outline:none;
+border:1px solid #1affff;
+}
+.registerbtn:hover {
+  opacity: 1;
+  background-color:#00ffff ;
+  color: #fff;
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: none;
+  outline:none;
+}
+
+a{
+    text-decoration:none;
+    color: dodgerblue;
+    text-underline-position: 
+}
+.signin {
+  background-color:
+  text-align: left;
